@@ -37,7 +37,11 @@ return array(
      * ZfrForum configuration
      */
     'zfr_forum' => array(
-        'tables_prefix' => 'Zfr_'
+        'db' => array(
+            'table' => array(
+                'prefix' => 'Zfr_'
+            )
+        )
     ),
 
     /**
